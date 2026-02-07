@@ -1,3 +1,6 @@
+
+
+
 const express = require('express');
 const auth = require('../../middlewares/auth');
 const validate = require('../../middlewares/validate');
@@ -18,6 +21,47 @@ router
   .delete(auth('manageUsers'), validate(userValidation.deleteUser), userController.deleteUser);
 
 module.exports = router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @swagger
